@@ -1,0 +1,78 @@
+/* Estilos generales */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f2f2f2;
+        color: #333;
+    }
+
+  /* Encabezado */
+  header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #fff;
+  }
+
+  /* Contenido principal */
+    main {
+        padding: 20px;
+    }
+
+  /* Sección de información sobre el IPOP */
+    .ipop-info {
+        margin-bottom: 40px;
+    }
+    
+  /* Sección de imágenes */
+    .images {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    .images img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    }
+
+  /* Pie de página */
+    footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        font-size: 14px;
+    }
+    
+    footer a {
+        color: #fff;
+        text-decoration: none;
+    }
+    
